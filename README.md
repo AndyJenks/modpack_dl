@@ -11,6 +11,8 @@ The aim is that the code is simple enough to understand that you don't need to w
 * Python 3.8+ (A handy additional argument was added to `copytree()` in this version.)
 * A compatible version of the `requests` library (e.g. installed via `apt install python3-requests` or using pip)
 
+Tested & working with FTB Ultimate Reloaded and SkyFactory4 on Ubuntu 20.04.
+
 ## Usage
 `python3 modpack_dl.py PATH_TO_MODPACK_ZIP`
 
