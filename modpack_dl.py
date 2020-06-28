@@ -162,7 +162,9 @@ def main(argv):
             
         with zipfile.ZipFile(tgt_zip) as zf:
             mf = get_manifest(zf)
-                
+            
+            print ("Modpack: {name} {version} by {author}".format(**mf))
+            
             if 'overrides' in mf:
                 print("Extracting overrides.")
                 extract_overrides(zf, os.path.join(out_dname, "minecraft"))
